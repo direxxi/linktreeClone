@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('blake-verdoorn-cssvEZacHvQ-unsplash.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+.top1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.profilepic{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.logos{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+.logo{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoss{
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
+    margin:10px;
+    background-color: transparent;
+    color: lightblue;
+}
+.logoss:hover{
+    background-color: lightblue;
+    color: white;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    font-family: poppins;
+}
+.top2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.linkstap{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900 bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+a:hover{
+    background-color: lightblue;
+    color: white;
+    transform: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@media(max-width: 640px){
+    .logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .logoss{
+        width: 40px;
+        height: 40px;
+        border-radius:10px;
+        margin:10px;
+        background-color: transparent;
+        color: lightblue;
+    }
+    .logoss:hover{
+        background-color: lightblue;
+        color: white;
+    }
+    .name{
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 20px;
+        font-family: poppins;
+    }
+    .top2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .linkstap{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 900 bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        border: solid 1px black;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+    a:hover{
+        background-color: lightblue;
+        color: white;
+        transform: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+}
